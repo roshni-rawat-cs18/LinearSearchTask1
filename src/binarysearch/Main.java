@@ -21,6 +21,7 @@ public class Main {
         for (int i = 0; i < randomNumbers.length; i++) {
             randomNumbers[i] = (int) (Math.random() * 100);
         }
+        Arrays.sort(randomNumbers);
         System.out.println(Arrays.toString(randomNumbers));
         System.out.println("Enter the number you want to search in the array: ");
         int numberToSearch = scanner.nextInt();
